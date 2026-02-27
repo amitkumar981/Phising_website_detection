@@ -11,6 +11,7 @@ from src.preprocessor import preprocess_data
 from src.train_xgboost import train_xgboost
 from src.train_ann import train_ann
 import mlflow
+mlflow.set_tracking_uri("http://localhost:5000")
 mlflow.set_experiment("PhishGuard_AI")
 
 def run_pipeline():
@@ -39,3 +40,7 @@ def run_pipeline():
     )
 
     print("\n Pipeline Completed Successfully!")
+
+if __name__ == "__main__":
+
+    run_pipeline()
