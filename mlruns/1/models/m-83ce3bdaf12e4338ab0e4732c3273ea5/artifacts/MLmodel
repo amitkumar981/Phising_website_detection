@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/redhu/OneDrive/Desktop/phising_website_detection/mlruns/1/models/m-83ce3bdaf12e4338ab0e4732c3273ea5/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.0
+model_id: m-83ce3bdaf12e4338ab0e4732c3273ea5
+model_size_bytes: 1003138
+model_uuid: m-83ce3bdaf12e4338ab0e4732c3273ea5
+prompts: null
+run_id: 40227ed482b949888ece054e139f0592
+utc_time_created: '2026-02-27 04:02:08.834981'

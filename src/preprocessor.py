@@ -29,3 +29,4 @@ def preprocess_data(df, target_col, test_size, random_state, scaler_path):
     print(f"Scaler saved → {scaler_path}")
 
     return X_train_scaled, X_test_scaled, y_train, y_test
+

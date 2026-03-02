@@ -1,4 +1,7 @@
 import pandas as pd
+from pathlib import Path
+#set root path
+
 from src.utils import print_header
 
 def load_dataset(path: str) -> pd.DataFrame:
